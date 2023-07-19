@@ -16,21 +16,23 @@ nav {
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 
 }
-.grad-text{
+
+.grad-text {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-background-clip: text;
     -moz-text-fill-color: transparent;
 }
+
 .first {
     display: flex;
     align-items: center;
     gap: 20px;
-    
+
 }
 
-.first> .gamer {
+.first>.gamer {
     font-size: 45px;
     font-weight: 700;
     display: inline-block;
@@ -62,7 +64,7 @@ nav {
 
 .section-one {
     display: flex;
-    
+
     height: 700px;
     background-image: url("../assets/Group 14.png");
     background-repeat: no-repeat;
@@ -72,7 +74,7 @@ nav {
 }
 
 .goat {
-    flex:1;
+    flex: 1;
 
     display: flex;
     align-items: center;
@@ -137,7 +139,7 @@ ul li {
 }
 
 .pics {
-    flex:1;
+    flex: 1;
 
     margin-top: 19px;
 }
@@ -228,11 +230,42 @@ ul li {
 
 .feature div {
     flex-basis: 342px;
-    
-
 }
-.feature div img{
+
+.feature div img {
     margin-bottom: 24px;
     border-radius: 16px;
+}
+
+.section-seven {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #ff42a508;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+
+}
+
+.genre-1,
+.genre-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
+}
+
+.genre {
+    display: flex;
+    align-items: center;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    gap: 16px;
+    padding: 10px;
+    border-radius: 50px;
+    background: #FFF;
+
 
 }
