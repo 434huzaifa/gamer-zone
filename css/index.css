@@ -64,12 +64,10 @@ nav {
 
 .section-one {
     display: flex;
-
     height: 700px;
     background-image: url("../assets/Group 14.png");
     background-repeat: no-repeat;
     gap: 68px;
-
 
 }
 
@@ -140,7 +138,6 @@ ul li {
 
 .pics {
     flex: 1;
-
     margin-top: 19px;
 }
 
@@ -265,24 +262,36 @@ ul li {
 
 .section-four {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
+    padding-left: 240px;
+    padding-right: 240px;
+
     flex-direction: row;
     margin-top: 120px;
+    height: 773px;
+
+}
+
+.section-four2 {
+    flex-direction: row-reverse;
 }
 
 .qoute {
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 353px;
     gap: 24px;
+    text-align: right;
+}
+
+.qoute2 {
+    text-align: left;
+    width: 426px;
 }
 
 .qoute h2 {
-    text-align: right;
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
@@ -290,23 +299,71 @@ ul li {
 
 .qoute p {
     color: #534C64;
-    text-align: right;
+
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
 }
-.qoute-images{ 
+
+.qoute-images {
     border-radius: 8px;
 }
-.qoute-small-image{
+
+.qoute-small-image {
     /* z-index: 1;
     position: absolute; */
     margin-right: -201px;
     margin-bottom: -82px;
     z-index: 1;
     position: relative;
-    
+
 }
+
+.qoute-small-image2 {
+    margin-left: -245px;
+    margin-bottom: -63px;
+}
+
+.section-six {
+    height: 821px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF42A5;
+}
+
+.careers {
+    width: 680px;
+    gap: 32px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 240px;
+
+}
+
+.careers h2 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.careers p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.careers table {
+    color: #FFF;
+
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
 .section-seven {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -324,6 +381,10 @@ ul li {
     align-items: center;
     justify-content: center;
     gap: 27px;
+}
+
+.genre-1-dup {
+    display: none;
 }
 
 .genre {
@@ -386,4 +447,99 @@ footer>.first>.gamer {
     font-size: 16px;
     font-weight: 500;
 
+}
+
+@media screen and (max-width:425px) {
+    nav {
+        margin-top: 109px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: none;
+        padding: 0px;
+
+    }
+
+    .second {
+        margin-top: 62px;
+        flex-direction: column;
+        gap: 36px;
+
+    }
+
+    .box {
+        margin-top: 62px;
+    }
+
+    .section-one {
+        margin-top: 78px;
+        flex-direction: column-reverse;
+        width: 100%;
+        height: auto;
+        gap: 24px;
+        background-image: none;
+        align-items: center;
+    }
+
+    .pics img,
+    .section-two img,
+    .feature div img,
+    .kids img {
+        width: 100%;
+    }
+
+    .section-two {
+        flex-direction: column;
+    }
+
+    .feature {
+        flex-direction: column;
+    }
+
+    .section-four {
+        flex-direction: column;
+        display: none;
+    }
+
+    .section-six {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .section-seven {
+        padding: 0;
+    }
+
+    .genre-1,
+    .genre-2 {
+        display: none;
+    }
+
+    .genre-1-dup {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .genre {
+        width: 25%;
+        font-size: 10px;
+    }
+    .genre img {
+        width: 30%;
+    }
+    footer {
+        padding: 0px;
+    }
+    .options{
+        flex-wrap: wrap;
+    }
+    .social-media{
+        flex-wrap: wrap;
+        gap:15%;
+    }
+    .terms-conditions{
+        flex-wrap: wrap;
+    }
 }
