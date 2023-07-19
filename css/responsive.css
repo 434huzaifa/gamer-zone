@@ -1,0 +1,129 @@
+
+@media screen and (max-width: 425px) {
+    nav {
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: none;
+      padding: 0px;
+      height: auto;
+    }
+  
+    .second {
+      margin-top: 24px;
+      flex-direction: column;
+      gap: 14px;
+    }
+  
+    .box {
+      margin-top:24px;
+    }
+  
+    .section-one {
+      margin-top: 30px;
+      flex-direction: column-reverse;
+      width: 100%;
+      height: auto;
+      gap: 10px;
+      background-image: none;
+      align-items: center;
+    }
+  
+    .pics img,
+    .section-two img,
+    .feature div img,
+    .kids img {
+      width: 100%;
+    }
+  
+    .section-two {
+      flex-direction: column;
+      height: auto;
+    }
+    .section-two > .gamer {
+      width: auto;
+      align-items: center;
+    }
+    .gamer h4 {
+      margin-bottom: 12px;
+    }
+    .gamer p {
+      text-align: center;
+    }
+    .purpose {
+      margin-top: 22px;
+    }
+  
+    .head h3 {
+      font-size: 19px;
+    }
+    .head p {
+      font-size: 12px;
+      margin-bottom: 80px;
+    }
+    .feature {
+      flex-direction: column;
+    }
+    .feature div img {
+      margin-bottom: 30px;
+  
+    }
+    .feature div p {
+      font-size: 12px;
+      text-align: center;
+  
+    }
+    .section-four {
+      flex-direction: column;
+      display: none;
+    }
+  
+    .section-six {
+      height: auto;
+      flex-direction: column;
+      margin-top: 40px;
+    }
+    .careers {
+      width: auto;
+      margin-left: 0px;
+      
+    }
+    .section-seven {
+      padding: 0;
+    }
+  
+    .genre-1,
+    .genre-2 {
+      display: none;
+    }
+  
+    .genre-1-dup {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .genre {
+      width: 25%;
+      font-size: 10px;
+    }
+    .genre img {
+      width: 30%;
+    }
+    footer {
+      padding: 0px;
+    }
+    .options {
+      flex-wrap: wrap;
+    }
+    .social-media {
+      flex-wrap: wrap;
+      gap: 15%;
+    }
+    .terms-conditions {
+      flex-wrap: wrap;
+    }
+  }
+  
