@@ -230,11 +230,37 @@ ul li {
 
 .feature div {
     flex-basis: 342px;
+
+
 }
 
 .feature div img {
     margin-bottom: 24px;
     border-radius: 16px;
+
+
+}
+
+.overlay {
+   opacity: 0;
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    width: 342px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 16px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #ff42a5;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%)
+}
+.overlay:hover{
+    opacity: 1;
+    outline: #ff42a5 4px solid;
+   
 }
 
 .section-seven {
@@ -266,6 +292,11 @@ ul li {
     padding: 10px;
     border-radius: 50px;
     background: #FFF;
+}
+
+.genre:hover {
+    outline: #ff42a5 1.5px solid;
+    color: #ff42a5;
 }
 
 footer {
