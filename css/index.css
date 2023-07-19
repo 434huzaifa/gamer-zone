@@ -457,6 +457,7 @@ footer>.first>.gamer {
         justify-content: space-between;
         box-shadow: none;
         padding: 0px;
+        height: auto;
 
     }
 
@@ -490,6 +491,10 @@ footer>.first>.gamer {
 
     .section-two {
         flex-direction: column;
+        height: auto;
+    }
+    .section-two>.gamer {
+        width: auto;
     }
 
     .feature {
@@ -505,7 +510,10 @@ footer>.first>.gamer {
         height: auto;
         flex-direction: column;
     }
-
+    .careers{
+        width: auto;
+        margin-left:0px;
+    }
     .section-seven {
         padding: 0;
     }
