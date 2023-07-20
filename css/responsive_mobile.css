@@ -1,8 +1,6 @@
-@media screen and (max-width: 768px)  {
-  * {
-    /* outline: auto; */
-  }
-  nav {
+@media screen and (max-width: 425px){
+
+  nav { 
     margin-top: 40px;
     display: flex;
     flex-direction: column;
@@ -10,6 +8,7 @@
     box-shadow: none;
     padding: 0px;
     height: auto;
+    
   }
   .first {
     gap: 7px;
@@ -24,13 +23,19 @@
   .second {
     margin-top: 24px;
     flex-direction: column;
-    font-size: 6.879px;
+    font-size: 7px;
     gap: 14px;
   }
 
   .box {
     margin-top: 24px;
     padding: 7px 9px;
+    border-radius: 4px;
+    gap:7px;
+  }
+  .box img{
+    height: 9px;
+    width: auto;
   }
 
   .section-one {
@@ -59,10 +64,9 @@
   }
   ul {
     margin-top: 9px;
-    gap: 7px;
+    gap: 6px;
   }
   ul li {
-    gap: 7px;
     font-size: 8px;
     gap: 5px;
   }
@@ -127,10 +131,11 @@
   }
   .feature {
     flex-direction: column;
-    gap: 20px;
+    gap: 45px;
   }
   .feature div {
-    width: 342px;
+    width: 257px;
+    height: 300px;
   }
 
   .feature div img {
@@ -138,7 +143,6 @@
     border-radius: 7px;
   }
   .overlay {
-    width: 230px;
     font-size: 10px;
   }
   .feature div p {
@@ -178,10 +182,7 @@
     top: 183px;
     left: 164px;
   }
-  .genre-1,
-  .genre-2 {
-    display: none;
-  }
+
   .qoute h2 {
     font-size: 18px;
     line-height: 22px;
@@ -231,8 +232,8 @@
   }
 
   .section-seven {
-    padding-top: 50px;
-    padding-bottom: 50px;
+padding: 50px 10px;
+
   }
 
   .genre-1-dup {
@@ -242,6 +243,7 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    width: auto;
   }
   .genre {
     width: auto;

@@ -1,0 +1,279 @@
+@media screen and (max-width: 768px) and (min-width:425px   ){
+
+    nav { 
+      padding: 0px 96px;
+      height: 52px;
+      
+    }
+    .first {
+      gap: 8px;
+    }
+    .first > .gamer {
+      font-size: 18px;
+    }
+    .first > img {
+      width: 32px;
+      height: 15px;
+    }
+    .second {
+      font-size: 8px;
+      gap:12px;
+    }
+  
+    .box {
+      padding: 7px 9px;
+      gap:9px;
+    }
+  
+    .section-one {
+      margin-top: 30px;
+      flex-direction: column-reverse;
+      width: 100%;
+      height: auto;
+      gap: 10px;
+      background-image: none;
+      align-items: center;
+      gap: 10px;
+    }
+    .goat {
+      background-image: url("../assets/Group 14.png");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+    .goat h4 {
+      margin-top: 85px;
+      margin-left:157px;
+      margin-right: 246px;
+      font-size: 31px;
+    }
+    .goat h2 {
+      font-size: 62px;
+    }
+    ul {
+      margin-top: 15px;
+      gap: 15px;
+    }
+    ul li {
+      gap: 7px;
+      font-size: 13px;
+
+    }
+    .button {
+      gap: 15px;
+      margin-top: 26px;
+      margin-bottom: 107px;
+    }
+    .pink-btn,
+    .blue-btn {
+      font-size: 13px;
+      padding: 13px 26px;
+      border-radius: 31px;
+    }
+    .pics img,
+    .section-two img,
+    .feature div img,
+    .kids img {
+      width: 100%;
+    }
+  
+    .section-two {
+      background: none;
+      flex-direction: column;
+      height: auto;
+      gap: 40px;
+    }
+    .section-two > .gamer {
+      width: auto;
+      align-items: center;
+      width: 340px;
+    }
+    .gamer h4 {
+      margin-bottom: 20px;
+      font-size: 31px;
+    }
+    .gamer p {
+      text-align: center;
+      margin-bottom: 15px;
+      font-size: 11px;
+      line-height: 20px;
+    }
+    .purpose {
+      margin-top: 40px;
+      font-size: 15px;
+      line-height: 30px;
+    }
+    .purpose span {
+      line-height: 30px;
+      font-size: 20px;
+    }
+    .section-three {
+      margin-top: 45px;
+    }
+    .head h3 {
+      font-size: 31px;
+    }
+    .head p {
+      font-size: 11px;
+      margin-bottom: 30px;
+      line-height: 20px;
+    }
+    .feature {
+      flex-direction: row;
+      gap: 40px;
+      flex-wrap: wrap;
+      margin-bottom: 50px;
+    }
+    .feature div {
+      width: 305px;
+      height: 352px;
+    }
+  
+    .feature div img {
+      margin-bottom: 5px;
+      border-radius: 7px;
+    }
+    .overlay {
+      font-size: 14px;
+    }
+    .feature div p {
+      font-size: 12px;
+      text-align: center;
+    }
+    .section-four {
+        gap:150px;
+      height: 277px;
+      margin-top: 20px;
+    }
+    .section-four2 {
+      margin-top: 71px;
+      
+    }
+    .qoute {
+      width: 176px;
+      gap: 15px;
+      text-align: center;
+    }
+    .qoute2 {
+      text-align: center;
+      width: 211px;
+    }
+    .qoute-big-image {
+      width: 242.63px;
+      height: 248.426px;
+    }
+    .qoute-small-image {
+      width: 121.729px;
+      height: 139.533px;
+      left: -54px;
+      top: 164px;
+    }
+    .qoute-small-image2 {
+      top: 183px;
+      left: 164px;
+    }
+
+    .qoute h2 {
+      font-size: 20px;
+      line-height: 24px;
+    }
+    .qoute p {
+      font-size: 12px;
+      line-height: 12px;
+    }
+    .section-six {
+      height: auto;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      margin-top: 100px;
+    }
+  
+    .careers {
+      width: auto;
+      gap: 18px;
+      padding-top: 97px;
+      padding-right: 103px;
+      padding-bottom: 78px;
+      padding-left: 109px;
+      margin-left: 0px;
+    }
+    .careers h2 {
+      font-size: 31px;
+      line-height: 39px;
+    }
+    .careers p {
+      font-size: 11px;
+      line-height: 19px;
+    }
+    .careers table {
+      font-size: 13px;
+      line-height: 26px;
+    }
+    .kids {
+      height: 661px;
+      width: 537px;
+      padding-bottom: 97px;
+    }
+    .white-btn {
+      font-size: 13px;
+      padding: 13px 26px;
+    }
+  
+    .section-seven {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  
+    .genre-1-dup {
+      gap: 17px;
+      width: auto;
+    }
+    .genre {
+      width: auto;
+      height: 31px;
+      font-size: 8px;
+  
+      font-size: 10px;
+      padding: 3px;
+      gap: 6px;
+      justify-content: center;
+    }
+    .genre img {
+      width: 28px;
+      height: auto;
+    }
+  
+    footer {
+      padding: 56px 0px;
+      gap: 16px;
+    }
+    .options {
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      font-size: 7px;
+      width: 150px;
+      gap: 24px;
+    }
+    .social-media img {
+      width: 15px;
+      height: 15x;
+    }
+    .social-media {
+      flex-wrap: wrap;
+      width: 102px;
+      gap: 24px;
+    }
+    .terms-conditions {
+      flex-wrap: wrap;
+      gap: 22px;
+      font-size: 7px;
+      width: 150px;
+      justify-content: space-between;
+    }
+    .copyright {
+      width: 99px;
+      font-size: 7px;
+    }
+  }
+  
