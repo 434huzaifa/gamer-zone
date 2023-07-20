@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) and (min-width:425px   ){
+@media screen and (max-width: 768px) and (min-width:424px   ){
 
     nav { 
       padding: 0px 96px;
@@ -9,14 +9,14 @@
       gap: 8px;
     }
     .first > .gamer {
-      font-size: 18px;
+      font-size: 24px;
     }
     .first > img {
       width: 32px;
       height: 15px;
     }
     .second {
-      font-size: 8px;
+      font-size: 12px;
       gap:12px;
     }
   
@@ -98,7 +98,7 @@
       line-height: 20px;
     }
     .purpose {
-      margin-top: 40px;
+      margin-top: 24px;
       font-size: 15px;
       line-height: 30px;
     }
@@ -244,36 +244,36 @@
     }
   
     footer {
-      padding: 56px 0px;
-      gap: 16px;
+      padding: 48px 0px;
+      gap: 22px;
     }
     .options {
       justify-content: center;
       align-items: center;
-      flex-wrap: wrap;
-      font-size: 7px;
-      width: 150px;
+      /* flex-wrap: wrap; */
+      font-size: 12px;
+      /* width: 150px; */
       gap: 24px;
     }
     .social-media img {
-      width: 15px;
-      height: 15x;
+      width: 20px;
+      height: 20px;
     }
     .social-media {
-      flex-wrap: wrap;
-      width: 102px;
+      /* flex-wrap: wrap; */
+      /* width: 102px; */
       gap: 24px;
     }
     .terms-conditions {
-      flex-wrap: wrap;
-      gap: 22px;
-      font-size: 7px;
-      width: 150px;
+      /* flex-wrap: wrap; */
+      gap: 24px;
+      font-size: 12px;
+      /* width: 150px; */
       justify-content: space-between;
     }
     .copyright {
-      width: 99px;
-      font-size: 7px;
+      /* width: 99px; */
+      font-size: 10px;
     }
   }
   
