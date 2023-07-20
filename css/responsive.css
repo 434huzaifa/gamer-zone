@@ -11,15 +11,26 @@
     padding: 0px;
     height: auto;
   }
-
+  .first {
+    gap: 7px;
+  }
+  .first > .gamer {
+    font-size: 17px;
+  }
+  .first > img {
+    width: 32px;
+    height: 15px;
+  }
   .second {
     margin-top: 24px;
     flex-direction: column;
+    font-size: 6.879px;
     gap: 14px;
   }
 
   .box {
     margin-top: 24px;
+    padding: 7px 9px;
   }
 
   .section-one {
@@ -161,7 +172,7 @@
     width: 121.729px;
     height: 139.533px;
     left: -54px;
-    top: 164px
+    top: 164px;
   }
   .qoute-small-image2 {
     top: 183px;
@@ -248,16 +259,35 @@
   }
 
   footer {
-    padding: 0px;
+    padding: 56px 0px;
+    gap: 16px;
   }
   .options {
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
+    font-size: 7px;
+    width: 150px;
+    gap: 24px;
+  }
+  .social-media img {
+    width: 15px;
+    height: 15x;
   }
   .social-media {
     flex-wrap: wrap;
-    gap: 15%;
+    width: 102px;
+    gap: 24px;
   }
   .terms-conditions {
     flex-wrap: wrap;
+    gap: 22px;
+    font-size: 7px;
+    width: 150px;
+    justify-content: space-between;
+  }
+  .copyright {
+    width: 99px;
+    font-size: 7px;
   }
 }
