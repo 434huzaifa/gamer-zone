@@ -70,7 +70,6 @@ nav {
 
 .goat {
   flex: 1;
-
   display: flex;
   align-items: center;
   justify-content: center;
@@ -96,12 +95,14 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 17px;
+  font-size: 20px;
 }
 
 ul li {
   display: flex;
   align-items: center;
   gap: 12px;
+  
 }
 
 .button {
@@ -215,7 +216,7 @@ ul li {
 }
 
 .feature div {
-  flex-basis: 342px;
+  width: 342px;
 }
 
 .feature div img {
@@ -243,7 +244,10 @@ ul li {
     rgba(0, 0, 0, 0.6) 100%
   );
 }
-
+.overlay img{
+  width: 48px;
+height: 48px;
+}
 .overlay:hover {
   opacity: 1;
   outline: #ff42a5 4px solid;
@@ -251,9 +255,9 @@ ul li {
 
 .section-four {
   display: flex;
-  justify-content: space-between;
-  padding-left: 240px;
-  padding-right: 240px;
+  justify-content: center;
+  align-items: center;
+  gap:240px;
 
   flex-direction: row;
   margin-top: 120px;
@@ -266,7 +270,7 @@ ul li {
 
 .qoute {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-direction: column;
   width: 353px;
@@ -294,25 +298,24 @@ ul li {
 }
 
 .qoute-images {
+  position: relative;
   border-radius: 8px;
 }
 
 .qoute-small-image {
-  /* z-index: 1;
-    position: absolute; */
-  margin-right: -201px;
-  margin-bottom: -82px;
-  z-index: 1;
-  position: relative;
+  /* z-index: 1; */
+    position: absolute;
+    top: 456px;
+    left: -146px;
 }
 
 .qoute-small-image2 {
-  margin-left: -245px;
-  margin-bottom: -63px;
+  top: 456px;
+  left: 483px;
 }
 
 .section-six {
-  height: 821px;
+  margin-top: 200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -320,14 +323,19 @@ ul li {
 }
 
 .careers {
-  width: 680px;
+  flex: 1;
+  
+  margin-left: 240px;
   gap: 32px;
   text-align: left;
   display: flex;
   flex-direction: column;
-  margin-left: 240px;
+  
 }
-
+.kids{
+  flex: 1;
+  
+}
 .careers h2 {
   color: #fff;
   font-size: 48px;
@@ -390,6 +398,7 @@ ul li {
   padding: 10px;
   border-radius: 50px;
   background: #fff;
+  justify-content: center;
 }
 
 .genre:hover {
